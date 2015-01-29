@@ -1,10 +1,13 @@
 
+/*global require, module,  __dirname */
+/*jslint node: true */
+
 'use strict';
 // var traverse = {};
 
 function Traverse(data){
   this.tree = data;
-};
+}
 /* 
  * build the methods via prototype
  * the first one is free
