@@ -1,4 +1,3 @@
-
 /*global require, module,  __dirname */
 /*jslint node: true */
 
@@ -8,7 +7,7 @@
 function Traverse(data){
   this.tree = data;
 }
-/* 
+/*
  * build the methods via prototype
  * the first one is free
  * uncomment the code below, then remove this comment

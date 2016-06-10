@@ -106,7 +106,7 @@ describe('Traversing a Tree', function () {
     it('should contains all the names!', function () {
       expect(results).to.include.members(sixteen_names);
     });
-    
+
   }); //ends getLeafName describe
 
   describe('Method getLeafAges', function () {
@@ -144,7 +144,7 @@ describe('Traversing a Tree', function () {
 
     it('should contain some of these names', function () {
       var someParentNames = ['Stevie', 'Mark', 'Charles', 'Cortney', 'Wray', 'Kingtak', 'Bjorn'];
-      
+
       expect(results).to.include.members(someParentNames);
     });
   }); // ends findAllParentsNames describe
@@ -169,7 +169,7 @@ describe('Traversing a Tree', function () {
 
       expect(results).to.include.members(someParentAges);
     });
-    
+
   });
 
   describe('Method findName', function () {
